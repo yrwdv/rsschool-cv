@@ -7,7 +7,7 @@
 ## About me
 I started to learn front-end development in 2017. Shortly thereafter I began to work as a freelancer. In all my years at freelance I also had experience of work as a full-stack developer (PHP and Node.js), WordPress developer and several other works (which includes creating extensions for different CRM systems and creating UX/UI designs). 
 
-Now I realized I want to to focus on a front-end development. At this stage, my main goal is to refresh old knowledge and learn new things. 
+Now I realized that I want to focus on a front-end development. At this stage, my main goal is to refresh old knowledge and learn new things. 
 
 ## Skills
 + HTML5, CSS3 *(Bootstrap, Bulma, Semantic UI)*
@@ -35,8 +35,8 @@ function highAndLow(numbers){
 ## Education and courses
 + **Education:** Bachelor of Computer Science (National Aviation University of Ukraine)
 + **Courses:**
-    * Many courses and workshops on HTML & CSS by [HTML Academy](https://htmlacademy.ru/) 
-    * HTML, CSS & JavaScript course on [freeCodeCamp](https://www.freecodecamp.org/) 
+    * Many HTML/CSS/JS courses and workshops by [HTML Academy](https://htmlacademy.ru/) 
+    * HTML/CSS/JavaScript course on [freeCodeCamp](https://www.freecodecamp.org/) 
     * Full-Stack Javascript developer course: [The Web Developer Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/)
     * W3School Tutorials on [PHP](https://www.w3schools.com/php/default.asp) & [MySQL](https://www.w3schools.com/mysql/default.asp)
     * Javascript сourse on [learn.javascript.ru](https://learn.javascript.ru/)
@@ -47,5 +47,5 @@ function highAndLow(numbers){
 + **Russian:** Native speaker
 + **English:** C2 Proficient (according to the [EF Set test](https://www.efset.org/cert/YsYZgX)). 
 
-My English grammar, speaking and writing skills needs to be improved, so along with this front-end course I'm also starting to work on improving my English skills.
+My English grammar, speaking and writing skills needs to be improved, so along with this front-end course I'm also working on improving my English skills.
 ![EF Set Test Result: C2 Proficient](https://cdn.efset.org/efset-widget/img/certificate_78.png)
