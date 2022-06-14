@@ -1,11 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>CV#2. HTML, CSS &amp; Git Basics</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>CV#2. HTML, CSS &amp; Git Basics</h1>
-  </body>
+
+<head>
+  <title>CV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education-and-courses">Education</a></li>
+          <li><a href="#code-example">Code Example</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <a class="cv-picture" href="https://github.com/yrwdv" target="_blank"><img src="/assets/img/cv-picture.png" alt="CV Picture" width="230" height="230"></a>
+      <h1 class="cv-name">Yurii Kvasnitskyi</h1>
+      <ul class="header-contacts" id="contacts">
+        <li><span class="list-label">Github:</span> <a href="https://github.com/yrwdv" target="_blank">&commat;yrwdv</a></a></li>
+        <li><span class="list-label">Discord:</span> &commat;yrwdv</li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+      <div class="main-content-column-left">
+        <section class="cv-section skills" id="skills">
+          <h2 class="section-header">Skills</h2>
+          <ul class="content-list skills-list">
+            <li class="skill-html5">HTML5</li>
+            <li class="skill-css3">CSS3</li>
+            <li class="skill-javascript">JavaScript</li>
+            <li class="skill-php">PHP</li>
+            <li class="skill-mysql">MySQL</li>
+            <li class="skill-mongodb">MongoDB</li>
+            <li class="skill-wordpress">WordPress</li>
+            <li class="skill-amocrm">AmoCRM</li>
+            <li class="skill-bitrix24">Bitrix24</li>
+            <li class="skill-git">Git</li>
+            <li class="skill-vscode">Visual Studio Code</li>
+            <li class="skill-photoshop">Adobe Photoshop</li>
+            <li class="skill-illustrator">Adobe Illustrator</li>
+            <li class="skill-figma">Figma</li>
+          </ul>
+        </section>
+
+        <section class="cv-section languages" id="languages">
+          <h2 class="section-header">Languages</h2>
+          <ul class="content-list languages-list">
+            <li><span class="list-label">Ukrainian:</span> Native speaker</li>
+            <li><span class="list-label">Russian:</span> Native speaker</li>
+            <li>
+              <span class="list-label">English:</span> C2 Proficient <em>(reading, understanding and listening)</em>
+              <a class="efset-test-results" href="https://www.efset.org/cert/YsYZgX" target="_blank"><img src="https://cdn.efset.org/efset-widget/img/certificate_78.png" alt="EF Set Test Results" width="215" height="215"></a>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="main-content-column-right">
+
+        <section class="cv-section about-me" id="about-me">
+          <h2 class="section-header">About me</h2>
+          <p>I started to learn front-end development in 2017. Shortly thereafter I began to work as a freelancer. In
+            all my years at freelance I also had experience of work as a full-stack developer (PHP and Node.js),
+            WordPress developer and several other works (which includes creating extensions for different CRM systems
+            and creating UX/UI designs).</p>
+          <p>Now I realized that I want to focus on a front-end development. At this stage, my main goal is to refresh
+            my old knowledge and learn new things.</p>
+          <p>My English grammar, speaking and writing skills needs to be improved, so along with this front-end course
+            I'm also working on improving my English skills.</p>
+        </section>
+
+        <section class="cv-section education-and-courses" id="education-and-courses">
+          <h2 class="section-header">Education and courses</h2>
+          <h3 class="section-subheader">Education</h3>
+          <p><span class="list-label">Bachelor of Computer Science</span> (<a href="https://nau.edu.ua/" target="_blank">National Aviation University of Ukraine</a>)</p>
+          <h3 class="section-subheader">Courses</h3>
+          <ul class="content-list courses-list">
+            <li><span class="list-label">Various HTML, CSS &amp; JS courses and workshops</span> by <a href="https://htmlacademy.ru" target="_blank">HTML Academy</a></li>
+            <li><span class="list-label">HTML, CSS &amp; JavaScript course</span> on <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+            <li><a href="https://www.udemy.com/course/the-web-developer-bootcamp/" target="_blank"><span class="list-label">The Web Developer Bootcamp</span></a> (Full-Stack Javascript developer course)</li>
+            <li><span class="list-label">W3School Tutorials</span> on <a href="https://www.w3schools.com/php/default.asp" target="_blank">PHP</a> &amp; <a href="https://www.w3schools.com/mysql/default.asp" target="_blank">MySQL</a></li>
+            <li><span class="list-label">Javascript сourse</span> on <a href="https://learn.javascript.ru" target="_blank">learn.javascript.ru</a></li>
+          </ul>
+        </section>
+
+        <section class="cv-section projects" id="projects">
+          <h2 class="section-header">Projects</h2>
+          <ul class="content-list projects-list">
+            <li><a href="https://yrwdv.github.io/rsschool-cv/cv" target="_blank"><span class="list-label">CV&num;1. Markdown &amp; Git task</span></a>
+              at <a href="https://rs.school/" target="_blank">Rolling Scopes School</a></li>
+            <li><a href="https://yrwdv.github.io/rsschool-cv/" target="_blank"><span class="list-label">CV&num;2 &amp; 3. HTML, CSS &amp; Git
+              Basics tasks</span></a> at <a href="https://rs.school/" target="_blank">Rolling Scopes School</a></li>
+          </ul>
+        </section>
+
+        <section class="cv-section code-example" id="code-example">
+          <h2 class="section-header">Code Example</h2>
+          <p>Function which returns a string with the highest and the lowest number from a given string of numbers.</p>
+          <code class="code-container">
+              function highAndLow(numbers){
+                let sortedNumbers = numbers.split(" ").sort((a,b) => a - b);
+                
+                return sortedNumbers[sortedNumbers.length - 1] + " " + sortedNumbers[0];
+              }
+          </code>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="main-footer-container container">
+      <span class="footer-year">2022</span>
+      <a href="https://github.com/yrwdv" target="_blank">&commat;yrwdv</a>
+      <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg"
+          alt="RS School JS Course" width="120" height="45"></a>
+      <span class="icons-copyright">Icons by <a href="https://icons8.com" target="_blank">Icons8</a></span>
+    </div>
+  </footer>
+
+</body>
+
 </html>
