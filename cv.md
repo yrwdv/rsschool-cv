@@ -40,6 +40,7 @@ function highAndLow(numbers){
     * Full-Stack Javascript developer course: [The Web Developer Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/)
     * W3School Tutorials on [PHP](https://www.w3schools.com/php/default.asp) & [MySQL](https://www.w3schools.com/mysql/default.asp)
     * Javascript сourse on [learn.javascript.ru](https://learn.javascript.ru/)
+    * JS / FRONT-END. STAGE 0 [RS School](https://rs.school/js-stage0/)
 
 
 ## Language skills
