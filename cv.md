@@ -35,12 +35,12 @@ function highAndLow(numbers){
 ## Education and courses
 + **Education:** Bachelor of Computer Science (National Aviation University of Ukraine)
 + **Courses:**
-    * Many HTML/CSS/JS courses and workshops by [HTML Academy](https://htmlacademy.ru/) 
-    * HTML/CSS/JavaScript course on [freeCodeCamp](https://www.freecodecamp.org/) 
+    * Many HTML/CSS/JS courses and workshops at [HTML Academy](https://htmlacademy.ru/) 
+    * HTML/CSS/JavaScript course at [freeCodeCamp](https://www.freecodecamp.org/) 
     * Full-Stack Javascript developer course: [The Web Developer Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/)
-    * W3School Tutorials on [PHP](https://www.w3schools.com/php/default.asp) & [MySQL](https://www.w3schools.com/mysql/default.asp)
-    * Javascript сourse on [learn.javascript.ru](https://learn.javascript.ru/)
-    * JS / FRONT-END. STAGE 0 [RS School](https://rs.school/js-stage0/)
+    * W3School Tutorials at [PHP](https://www.w3schools.com/php/default.asp) & [MySQL](https://www.w3schools.com/mysql/default.asp)
+    * Javascript сourse at [learn.javascript.ru](https://learn.javascript.ru/)
+    * JS / FRONT-END. STAGE 0 at [RS School](https://rs.school/js-stage0/)
 
 
 ## Language skills
