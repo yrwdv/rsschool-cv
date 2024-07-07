@@ -16,6 +16,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="assets/libraries/prism.css" />
   </head>
 
   <body>
@@ -107,22 +108,23 @@
           <section class="cv-section about-me" id="about-me">
             <h2 class="section-header">About me</h2>
             <p>
-              I started to learn front-end development in 2017. Shortly
-              thereafter I began to work as a freelancer. In all my years at
-              freelance I also had experience of work as a full-stack developer
-              (PHP and Node.js), WordPress developer and several other works
-              (which includes creating extensions for different CRM systems and
-              creating UX/UI designs).
+              I started learning front-end development in 2017 and soon after
+              began working as a freelancer. Throughout my freelance career,
+              I've gained experience as a full-stack developer (PHP and
+              Node.js), a WordPress developer, and in several other roles,
+              including creating extensions for various CRM systems. I've also
+              worked on Gamedev projects, developed applications using Node.js,
+              and built a mobile application using React.
             </p>
             <p>
-              Now I realized that I want to focus on a front-end development. At
-              this stage, my main goal is to refresh my old knowledge and learn
-              new things.
+              I've now realized that I want to focus on front-end development.
+              At this stage, my main goal is to refresh my existing knowledge
+              and learn new things.
             </p>
             <p>
-              My English grammar, speaking and writing skills needs to be
-              improved, so along with this front-end course I'm also working on
-              improving my English skills.
+              I need to improve my English grammar, speaking, and writing
+              skills, so in addition to this front-end course, I'm also working
+              on enhancing my English proficiency.
             </p>
           </section>
 
@@ -227,15 +229,46 @@
           <section class="cv-section code-example" id="code-example">
             <h2 class="section-header">Code Example</h2>
             <p>
-              Function which returns a string with the highest and the lowest
-              number from a given string of numbers.
+              A function that formats a duration, given as a number of seconds,
+              into a human-friendly format. The function accepts a non-negative
+              integer. If the integer is zero, it returns "now". Otherwise, the
+              duration is expressed as a combination of years, days, hours,
+              minutes, and seconds.
             </p>
-            <code class="code-container">
-              function highAndLow(numbers){ let sortedNumbers = numbers.split("
-              ").sort((a,b) =&gt; a - b); return
-              sortedNumbers[sortedNumbers.length - 1] + " " + sortedNumbers[0];
-              }
-            </code>
+            <pre>
+  <code class="language-javascript">
+    function formatDuration (seconds) {
+      if (seconds === 0) return 'now';
+
+      const formulas = {
+        "year": 365 * 24 * 60 * 60,
+        "day": 24 * 60 * 60,
+        "hour": 60 * 60,
+        "minute": 60,
+        "second": 1
+      };
+
+      let time = [];
+
+      for (const timeUnit in formulas) {
+        if (seconds >= formulas[timeUnit]) {
+          const timeAmount = Math.floor(seconds / formulas[timeUnit]);
+          let timeUnitStrEnd = timeAmount > 1 ? "s" : "";
+          let str = `${timeAmount} ${timeUnit}${timeUnitStrEnd}`;
+          time.push(str);
+          seconds %= formulas[timeUnit];
+        }
+      }
+
+      if (time.length > 1) {
+        const lastItem = time.pop();
+        return `${time.join(', ')} and ${lastItem}`;
+      } else {
+        return time[0];
+      }
+    }
+  </code>
+</pre>
           </section>
         </div>
       </div>
@@ -259,6 +292,8 @@
       </div>
     </footer>
 
+    <script src="assets/libraries/prism.js"></script>
+
     <script>
       function updateFooterYear() {
         const currentYear = new Date().getFullYear();
@@ -267,6 +302,10 @@
         if (footerYearElement) {
           footerYearElement.textContent = currentYear;
         }
+      }
+
+      function enableSyntaxHighlighting() {
+        Prism.highlightAll();
       }
 
       document.addEventListener("DOMContentLoaded", () => {
